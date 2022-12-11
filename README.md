@@ -1,2 +1,2 @@
 # rsschool-cv
-# https://Matyisin94.github.io/rsschool-cv/cv
+# gh repo clone Matyisin94/rsschool-cv
