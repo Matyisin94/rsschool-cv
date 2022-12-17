@@ -46,10 +46,11 @@ ___
 #### Done projects
 
         RS School
+        My CV (this one=)
 
         Skills
          HTML(basic), CSS(basic), English language C1 level, Hungarian language B2+ level.
 
-         My Github
-         Production year 2022
-         Courses of RS School
+[My Github](https://github.com/Matyisin94)
+Production year 2022
+[Courses of RS School](https://rs.school/js/)
