@@ -15,7 +15,7 @@ My name is Arthur, i was born in 1994 in St.Petersburg Russia.
         Right now i am working at the "Hankook" tire factory.
         I decided to learn HTML/CSS and JavaScript.*
 ___
-##### Experience
+>##### Experience
 12.11.2021 - present
 *"Hankook"*
 ###### Industrial operator
@@ -33,7 +33,7 @@ ___
 * Making phone calls
 * filling in company information
 ___
-##### Examples of code
+>##### Examples of code
       const assert = require('chai').assert;
         describe('summation', function () {
         it('should return the correct total', function () {
