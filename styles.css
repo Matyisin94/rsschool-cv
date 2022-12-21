@@ -58,15 +58,12 @@ body {
 /* Header styles start */
 
 .header {
-  height: 100vh;
+  height: 100px;
   background: url(./img/header.jpg) no-repeat center;
   align-items: center;
 }
 
 /* Header styles end */
-
-
-
 /* Intro styles start */
 
 .welcome{
