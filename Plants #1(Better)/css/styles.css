@@ -1,0 +1,353 @@
+/* inter-regular - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/inter-v12-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inter-v12-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-700 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('../fonts/inter-v12-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inter-v12-latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inika-regular - latin */
+@font-face {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/inika-v21-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inika-v21-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inika-700 - latin */
+@font-face {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('../fonts/inika-v21-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inika-v21-latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.header {
+  font-family: Inika;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  width: 1440px;
+  height: 134px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background-color: #EDF2EC;
+}
+
+.navbar {
+  margin: auto;
+  width: 1220px;
+  height: 50px;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.nav {
+  width: 452px;
+  height: 50px;
+  float: right;
+  line-height: 50px;
+  text-align: right;
+  word-spacing: 35px;
+}
+
+.logo {
+  width: 79.17px;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+}
+
+.logo_vector {
+  width: 20px;
+  height: 20px;
+}
+
+.leaves_vector {
+  width: 20px;
+  height: 20px;
+}
+
+.navHover:hover {
+  color: #E06733;
+  cursor: pointer;
+}
+
+.welcome {
+  margin: auto;
+  width: 1440px;
+  height: 532px;
+  position: relative;
+  background: #EDF2EC;
+}
+
+.welcome_section {
+  margin: auto;
+  width: 1222px;
+  height: 407.36px;
+}
+
+.divInTheMiddle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.leafs {
+  width: 448.8px;
+  height: 407.36px;
+  float: left;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.welcome_text {
+  width: 549px;
+  height: 340px;
+  float: right;
+  margin-top: 35px;
+}
+
+td {
+  position: relative;
+  padding: -10px;
+}
+
+.leaf1 {
+  width: 81.23px;
+  height: 75.89px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: -50px;
+}
+
+.leaf2 {
+  width: 245.31px;
+  height: 177.84px;
+}
+
+.leaf3 {
+  width: 183.49px;
+  height: 171.86px;
+}
+
+.leaf4 {
+  width: 80.33px;
+  height: 81.57px;
+}
+
+.leaf5 {
+  width: 120.93px;
+  height: 90.01px;
+}
+
+.greenWord {
+  color: #499A18;
+}
+
+.orangeWord {
+  color: orange;
+}
+
+.welcomeH1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+  margin-bottom: 30px;
+}
+
+.about {
+  margin: auto;
+  position: relative;
+  width: 1440px;
+  height: 666px;
+  background-color: #FFFFFF;
+}
+
+.aboutDiv {
+  width: 1222px;
+  height: 479px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aboutUsText{
+  width: 605px;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.welcomeH2 {
+  position: relative;
+  width: 463px;
+  height: 102px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.normalText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+}
+
+.lessSpaceBetweenRows{
+  line-height: 30px;
+}
+
+.btnLearnMore {
+  margin-top: 30px;
+
+  width: 158px;
+  height: 44px;
+
+  border: 2px solid #E06733;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.houseplant1 {
+  height: 479px;
+  width: 464px;
+  float: right;
+  margin-top: 35px;
+}
+.service{
+  width: 1440px;
+  height: 1300px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 4%;
+  padding-top: 0.5%;
+  background-color: #EDF2EC;
+}
+
+.servicesContent{
+  position: relative;
+  margin-top: 50px;
+  height: 94px;
+  width: 1007px;
+  border-radius: 5px;
+}
+.servicesParagraph{
+  width: 306px;
+  height: 94px;
+  position: absolute;
+  top: 50%; left: 15%;
+  transform: translate(-50%, -50%);
+}
+.servicesBtns{
+  width: 559px;
+  height: 50px;
+  position: absolute;
+  top: 50%; left: 72%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+}
+.serviceBtn{
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #E06733;
+
+  width: 161px;
+  height: 50px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+}
+
+.services{
+  margin-top: 90px;
+  width: 1222px;
+  height: 955px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1222px;
+  justify-content: space-between;
+}
+
+.serviceItem{
+  width: 330px;
+  height: 450px;
+  text-align: center;
+}
+
+.serviceName{
+  color: #E06733;
+  width: 120px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+.serviceDescription{
+  margin-top: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+}
+.serviceItemLowerBox {
+  padding-top: 15px;
+  width: 327px;
+  height: 100px;
+  border: 1px solid #E3E1D5;
+  border-radius: 0px 0px 20px 20px;
+}
